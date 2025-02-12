@@ -1,0 +1,87 @@
+@font-face {
+  font-family: Jellyfish;
+  src: url(../Fonts/Jellyfish/Jellyfish.woff);
+}
+@-webkit-keyframes fade-in-out {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px) opacity(0%);
+  }
+  30% {
+    letter-spacing: 0;
+    filter: blur(0) opacity(1);
+  }
+  100% {
+    letter-spacing: 0;
+    filter: blur(0) opacity(1);
+  }
+}
+body {
+  animation-name: fade-in-out;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  font-family: Jellyfish;
+  margin: 0;  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../Valentine\ Project/img/bg.png);
+}
+
+.frame {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  margin-left: 150px;
+  z-index: -1;
+}
+
+h1 {
+  color: #816257;
+  text-align: center;
+  position: absolute;
+  margin-left: 530px;
+  margin-top: 200pX;
+  font-size: 46px;
+}
+
+.yes {
+  background-color: #b2efad;
+  color: white;
+  font-family: Jellyfish;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 630px;
+  margin-top: 300px;
+  border-radius: 20px;
+  width: 150px;
+  position: absolute;
+  cursor: pointer;
+}
+.no {
+  background-color: #ff95ae;
+  color: white;
+  font-family: Jellyfish;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 840px;
+  margin-top: 300px;
+  border-radius: 20px;
+  width: 150px;
+  position: absolute;
+
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.yes:hover {
+  transform: scale(1.2);
+}
+.no:hover {
+  opacity:0;
+}

@@ -1,0 +1,200 @@
+@font-face {
+  font-family: Jellyfish;
+  src: url(../Fonts/Jellyfish/Jellyfish.woff);
+}
+@-webkit-keyframes fade-in-out {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px) opacity(0%);
+  }
+  30% {
+    letter-spacing: 0;
+    filter: blur(0) opacity(1);
+  }
+  100% {
+    letter-spacing: 0;
+    filter: blur(0) opacity(1);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  animation-name: fade-in-out;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  font-family: Jellyfish;
+  margin: 0;  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../Valentine\ Project/img/bg.png);
+}
+
+.frame {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  margin-left: 150px;
+  z-index: -1;
+}
+
+h1 {
+  color: #816257;
+  text-align: center;
+  position: absolute;
+  margin-left: 430px;
+  margin-top: 200pX;
+  font-size: 45px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+h2 {
+  color: #816257;
+  text-align: center;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0pX;
+  font-size: 46px;
+  box-sizing: border-box;
+  z-index: 1;
+ }
+
+
+.teenoi {
+  margin-left: 530px;
+  margin-top: 250px;
+  background-color: #fcafae;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: Jellyfish;
+  border: none;
+  position: absolute;
+}
+.ajumma {
+  margin-left: 530px;
+  margin-top: 310px;
+  background-color: #fcafae;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 23px;
+  cursor: pointer;
+  font-family: Jellyfish;
+  border: none;
+  position: absolute;
+}
+.pizzaria {
+  margin-left: 530px;
+  margin-top: 370px;
+  background-color: #fcafae;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: Jellyfish;
+  border: none;
+  position: absolute;
+}
+.hotpot {
+  margin-left: 850px;
+  margin-top: 250px;
+  background-color: #fcafae;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: Jellyfish;
+  border: none;
+  position: absolute;
+}
+.sushiro {
+  margin-left: 850px;
+  margin-top: 310px;
+  background-color: #fcafae;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: Jellyfish;
+  border: none;
+  position: absolute;
+}
+.aka {
+  margin-left: 850px;
+  margin-top: 370px;
+  background-color: #fcafae;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: Jellyfish;
+  border: none;
+  position: absolute;
+}
+
+button {
+  background-color: #fcafae;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: Jellyfish;
+  border: none;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.teenoi:hover {
+  transform: scale(1.2); 
+}
+.ajumma:hover {
+  transform: scale(1.2); 
+}
+.pizzaria:hover {
+  transform: scale(1.2); 
+}
+.hotpot:hover {
+  transform: scale(1.2); 
+}
+.sushiro:hover {
+  transform: scale(1.2); 
+}
+.aka:hover {
+  transform: scale(1.2); 
+}
+
